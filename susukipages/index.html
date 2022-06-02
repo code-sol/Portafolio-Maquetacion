@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,700;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    
+      <header class="header width-100">
+        <div class="header-container flex">
+          <section class="header-logo">
+            <img class="header-logo-img" src="assets/logo (1).png" alt="Logo" />
+          </section>
+          <section class="header-menu-icons flex">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              id="iconMenuOpen"
+            >
+              <path d="M4 6H20V8H4zM4 11H20V13H4zM4 16H20V18H4z" />
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              id="iconMenuClose"
+              class="hidden"
+            >
+              <path
+                d="M16.192 6.344L11.949 10.586 7.707 6.344 6.293 7.758 10.535 12 6.293 16.242 7.707 17.656 11.949 13.414 16.192 17.656 17.606 16.242 13.364 12 17.606 7.758z"
+              />
+            </svg>
+          </section>
+          <ul class="header-menu width-100 flex">
+            <a href="" class="header-menu-item">Top Features</a>
+            <a href="" class="header-menu-item">Gallery</a>
+            <a href="" class="header-menu-item">Store</a>
+            <a href="" class="header-menu-item">Contact</a>
+          </ul>
+        </div>
+      </header>
+      <section class="titel">
+        <p class="titel-main">Ready To <span>Race</span></p>
+        <a href="" class="btn">Ride now</a>
+      </section>
+      <main class="main">
+        <section class="main-container flex">
+          <div class="main-img">
+            <img src="assets/bike.png" alt="" />
+          </div>
+        </section>
+        <section class="main-cards flex">
+          <aticle class="main-card-section">
+            <div class="main-card select" id="controlSection1">
+              <p class="main-card-description">Engine</p>
+              <h2 class="main-card-value">599 cc</h2>
+            </div>
+            <div class="main-card">
+              <p class="main-card-description">Mileag</p>
+              <h2 class="main-card-value">14 Kmpl</h2>
+            </div>
+            <div class="main-card">
+              <p class="main-card-description">Wheels</p>
+              <h2 class="main-card-value">17-inch Alloy</h2>
+            </div>
+          </aticle>
+
+          <aticle class="main-card-section">
+            <div class="main-card select" id="controlSection2">
+              <p class="main-card-description">Max speed</p>
+              <h2 class="main-card-value">260 Kmph</h2>
+            </div>
+            <div class="main-card">
+              <p class="main-card-description">0-100 Kmph</p>
+              <h2 class="main-card-value">4 Seconds</h2>
+            </div>
+            <div class="main-card">
+              <p class="main-card-description">Tyre Type</p>
+              <h2 class="main-card-value">Tubeless</h2>
+            </div>
+          </aticle>
+        </section>
+      </main>
+      <footer class="footer flex">
+        <div class="social-media flex">
+          <a href="" class="sm-social-icon"><ion-icon name="logo-facebook"></ion-icon</a>
+          <a href="" class="sm-social-icon"><ion-icon name="logo-twitter"></ion-icon></a>
+          <a href="" class="sm-social-icon"><ion-icon name="logo-discord"></ion-icon></ion-icon></a>
+        </div>
+        <div class="main-nav flex">
+          <input
+            class="main-input-1 hidden"
+            type="radio"
+            name="info"
+            id="info-1"
+            checked
+          />
+          <input
+            class="main-input-2 hidden"
+            type="radio"
+            name="info"
+            id="info-2"
+          />
+          <input
+            class="main-input-3 hidden"
+            type="radio"
+            name="info"
+            id="info-3"
+          />
+          <label class="main-nav-item" for="info-1" id="nav-1"></label>
+          <label class="main-nav-item" for="info-2" id="nav-2"></label>
+          <label class="main-nav-item" for="info-3" id="nav-3"></label>
+        </div>
+      </footer>
+    
+    <script src="script.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
